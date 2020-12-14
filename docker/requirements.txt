@@ -1,0 +1,8 @@
+wget
+addict
+tqdm
+h5py
+# NLP related
+scikit-learn
+nltk
+gensim
