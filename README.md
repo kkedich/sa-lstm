@@ -27,7 +27,9 @@ You basically need to create the image with `make build-image` and run the conta
 
 ### Preparing the dataset
 
-First, download the dataset from [here](https://github.com/srhrshr/torchDatasets/). Then, execute the script 
+First, download the dataset from [here](https://github.com/srhrshr/torchDatasets/). Then, set a configuration file
+to prepare the dataset (e.g., [example here](./configs/conf_dbpedia.py)). This will pre-process the dataset and save 
+ the texts into a TFRecord file. Finally, execute the script 
 `salstm/tools/prepare_dbpedia` as in:
 
 ```

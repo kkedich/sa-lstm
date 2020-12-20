@@ -2,6 +2,7 @@ wget
 addict
 tqdm
 h5py
+pandas
 # NLP related
 scikit-learn
 nltk

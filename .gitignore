@@ -1,0 +1,13 @@
+*.aux
+*.log
+*.out
+*.pdf
+*~
+output_files/
+.*/
+#__*
+*__pycache__*
+*.zip
+*.png
+*.txt
+data/

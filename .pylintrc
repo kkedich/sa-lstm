@@ -1,0 +1,25 @@
+[pylint]
+good-names = h,h_,i,j,k,ex,Run,_,x,y,X,Y,x1,x2,y1,y2,g,p,x_,x0,y0,w,v,t,ax,fp,tp,fn,f1,ve,vp
+output-format = colorized
+max-line-length = 100
+extension-pkg-whitelist = numpy,tensorflow
+
+[MESSAGES CONTROL]
+disable = fixme,
+  too-many-instance-attributes, 
+  too-few-public-methods, 
+  too-many-locals, 
+  too-many-function-args, 
+  too-many-arguments, 
+  bare-except, 
+  broad-except, 
+  duplicate-code, 
+  global-statement, 
+  useless-import-alias, 
+  chained-comparison, 
+  unsubscriptable-object, 
+
+[TYPECHECK]
+generated-members=numpy.*,tensorflow.*
+ignored-modules = numpy,tensorflow,addict,pandas,wget,nltk,h5py
+ignored-classes = numpy
