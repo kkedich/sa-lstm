@@ -40,9 +40,16 @@ to prepare the dataset (e.g., [example here](./configs/conf_dbpedia.py)). This w
 
 ### Training the model
 
-Download meteor
+**Configuration files**
 
-Configuration files
+We use `.py` configuration files for each experiment. Parameters related to the text model, training, validation
+settings, and the dataset are defined in this file. You can find an example in `./configs/`
+
+
+**Metrics**:
+
+- [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html): the training script will automatically download the metric
+and run the corresponding command to obtain the score.
 
 
 ### Inference phase
