@@ -14,4 +14,4 @@ run-flake:
 	python3 -m flake8 --ignore E501, W503 $(SRC_DIRS)
 
 
-pre-commit: run-isort run-pep8 run-pylint #run-flake
+pre-commit: run-isort run-pep8 run-flake run-pylint
