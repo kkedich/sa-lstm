@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+
 def transpose_batch_time(x):
     """
     Code from
